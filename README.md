@@ -1,7 +1,7 @@
 # ReclamatecApp
 
 <h1 align="start">
-    <img width="49px" src=".github/logo.png"> Reclamatec
+    Reclamatec
 </h1>
 
 <br>
