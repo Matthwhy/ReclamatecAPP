@@ -8,9 +8,7 @@
 
 <p>✔Aplicativo para fazer reclamações e sugestões da fatec</p>
 
-<p align="start">
-  <img src=".github/smartk.jpg" width="70%">
-</p>
+
 
 
 
