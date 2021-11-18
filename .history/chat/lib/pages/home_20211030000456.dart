@@ -1,0 +1,55 @@
+// ignore_for_file: prefer_const_constructors
+
+import 'package:flutter/material.dart';
+
+class Home extends StatefulWidget {
+  Home({Key? key}) : super(key: key);
+
+  @override
+  _HomeState createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      back
+      body: Center(
+          child: Text(
+        "Home",
+        style: TextStyle(
+          fontSize: 60,
+        ),
+      )),
+      bottomNavigationBar: BottomNavigationBar(
+        elevation: 0,
+          fixedColor: Color(0xffF1768F),
+          backgroundColor: Color(0xff15162d),
+          unselectedItemColor: Colors.white,
+          iconSize: 20,
+        // ignore: prefer_const_literals_to_create_immutables
+        items: [
+          BottomNavigationBarItem(
+              icon: Icon(
+            Icons.home,),
+            label: '',
+            backgroundColor: Colors.black54
+          ),
+           BottomNavigationBarItem(
+              icon: Icon(
+            Icons.message,),
+            label: '',
+            backgroundColor: Colors.black54
+          ),
+          BottomNavigationBarItem(
+              icon: Icon(
+            Icons.settings,),
+            label: '',
+            backgroundColor: Colors.black54
+          ),
+
+        ],
+      ),
+    );
+  }
+}
