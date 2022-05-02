@@ -6,7 +6,6 @@
 
 <br>
 
-<p>✔Aplicativo para fazer reclamações e sugestões da fatec</p>
 
 
 
